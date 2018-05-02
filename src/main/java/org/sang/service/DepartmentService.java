@@ -21,6 +21,8 @@ public class DepartmentService {
     public int addDep(Department department) {
         department.setEnabled(true);
         departmentMapper.addDep(department);
+		/*
+		*/
         return department.getResult();
     }
 
